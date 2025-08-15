@@ -1,13 +1,14 @@
 [Unit]
-Description=WireOS daemon
-Requires=ankiinit.service
-After=ankiinit.service
+Description=1.6-rebuild wired daemon
+SourcePath=/usr/bin/wired
+
+ConditionFileIsExecutable=/usr/bin/logwrapper
+ConditionFileIsExecutable=/usr/bin/wired
 
 [Service]
-Type=simple
 Restart=onfailure
 RestartSec=10
-ExecStart=/usr/bin/wired
+ExecStart=/usr/bin/logwrapper /usr/bin/wired
 
 [Install]
 WantedBy=multi-user.target
