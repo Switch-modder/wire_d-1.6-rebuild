@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/kercre123/vector-gobot/pkg/vscreen"
-	"github.com/kercre123/wire-os/wired/vars"
+	"github.com/Switch-modder/wire_d-1.6-rebuild/vars"
 )
 
 var WakeWordLocation = "/data/data/com.anki.victor/persistent/customWakeWord/wakeword.pmdl"

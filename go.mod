@@ -1,4 +1,4 @@
-module github.com/kercre123/wire-os/wired
+module github.com/Switch-modder/wire_d-1.6-rebuild
 
 go 1.19
 

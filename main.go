@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kercre123/wire-os/wired/mods"
-	"github.com/kercre123/wire-os/wired/vars"
+	"github.com/Switch-modder/wire_d-1.6-rebuild/mods"
+	"github.com/Switch-modder/wire_d-1.6-rebuild/vars"
 )
 
 var EnabledMods []vars.Modification = []vars.Modification{

@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/kercre123/wire-os/wired/vars"
+	"github.com/Switch-modder/wire_d-1.6-rebuild/vars"
 )
 
 type FreqChange struct {

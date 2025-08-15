@@ -10,8 +10,8 @@ import (
 	"os/exec"
 	"time"
 
-	ba "github.com/kercre123/wire-os/wired/raw"
-	"github.com/kercre123/wire-os/wired/vars"
+	ba "github.com/Switch-modder/wire_d-1.6-rebuild/raw"
+	"github.com/Switch-modder/wire_d-1.6-rebuild/vars"
 	cp "github.com/otiai10/copy"
 )
 
