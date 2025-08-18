@@ -62,7 +62,7 @@ function HideModStatus() {
     document.getElementById('modStatus').style.display = 'none';
 }
 
-async function SendJSON(mod, json) {
+async function FreqChange_Submit() {
     document.getElementById('mods').style.display = 'none';
     SetModStatus("FreqChange is applying, please wait...")
     let freq = document.querySelector('input[name="frequency"]:checked').value;
@@ -155,16 +155,7 @@ async function revertDefaultWakeWord() {
     show("revertDefaultWakeWord")
 }
 
-async function startWakeWordOver() {
-    setWakeStatus("Deleting data...")
-    await fetch("/api/mods/wakeword/StartOver")
-    hide("genWakeWord")
-    hide("startOver")
-    recIndex = 0
-    setWakeStatus("The recordings have been deleted. Press 'Listen', wait for the countdown on Vector's screen, then say your wake word to Vector.")
-}
-
-async function RestartVic() { 
+async function RestartVic() {
     SetModStatus("")
     hide("cww")
     hide("mainmods")
@@ -226,7 +217,6 @@ async function BootAnim_Submit() {
         alert(banimresp)
     }
 }
-
 
 
 
