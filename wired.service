@@ -9,7 +9,7 @@ ConditionFileIsExecutable=/usr/bin/wired
 
 [Service]
 # give ankiinit time to set cpu and ram freq
-ExecStartPre=/usr/bin/sleep 3
+ExecStartPre=/bin/sleep 3
 ExecStart=/usr/bin/logwrapper /usr/bin/wired
 Restart=no
 
